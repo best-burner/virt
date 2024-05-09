@@ -1,0 +1,13 @@
+en 
+
+config t 
+
+vlan <vlan_id>
+name <name>
+
+int range fa0/<range of port number>
+switchport mode access
+
+switchport access vlan <vlan_id>
+
+  
